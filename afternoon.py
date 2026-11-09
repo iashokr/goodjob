@@ -7,4 +7,5 @@ def prime():
         if count==2:
             yield i
 s = prime()
-print(next(s))
+for x in s:
+    print(x)
